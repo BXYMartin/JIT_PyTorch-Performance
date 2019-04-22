@@ -1,2 +1,9 @@
-# JIT_PyTorch-Performance
-Evaluate Pretrained Model Performance (Time &amp; Memory) In Torchvision
+# Torchvision Pretrained Model Timing
+## Requirements
+* Python: 3
+* Packages: pynvml torch torchvision
+
+## Start
+``` bash
+python benchmark.py
+```
