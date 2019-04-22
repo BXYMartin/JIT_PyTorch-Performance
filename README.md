@@ -8,7 +8,8 @@ Start Benchmarking...
 ``` bash
 python benchmark.py
 ```
-This project includes a Watcher Class for monitoring nvidia device memory usage details.
+This project includes a Watcher Class for monitoring memory usage for nvidia graphic cards.
+
 Organize Result...
 ``` bash
 python organize.py
