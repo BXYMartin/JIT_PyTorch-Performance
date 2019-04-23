@@ -1,9 +1,13 @@
 # Torchvision Pretrained Model Timing
 ## Requirements
-* Python: 3
-* Packages: pynvml torch torchvision
+* C++: 11
+* Dependencies: PyTorch
 
 ## Start
 ``` bash
-python benchmark.py
+mkdir build
+cd build
+cmake ..
+make
+./example
 ```
